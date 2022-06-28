@@ -1,0 +1,25 @@
+{
+  "name": "fred-orders",
+  "version": "0.1.0",
+  "description": "Fred's Orders",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmonds-devdroid/fred-orders.git"
+  },
+  "keywords": [
+    "fred",
+    "orders",
+    "desmonds",
+    "demsond's"
+  ],
+  "author": "Binraj Desmond",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/desmonds-devdroid/fred-orders/issues"
+  },
+  "homepage": "https://github.com/desmonds-devdroid/fred-orders#readme"
+}
