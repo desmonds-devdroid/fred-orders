@@ -7,14 +7,14 @@
 //  Orders - getOrdersByMonth()
 // 
 'use strict';
-const log = require('../log'); 
-const config = require('../config'); 
-const framework = require('../framework'); 
+const log = require('../../log'); 
+const config = require('../../config'); 
+const framework = require('../../framework'); 
 
-const fn = () => {
-
+const getOrdersByMonth = () => {
+  return 'getOrdersByMonth()';
 };
 
 module.exports = {
-  getOrdersByMonth: fn
+  getOrdersByMonth: getOrdersByMonth
 };

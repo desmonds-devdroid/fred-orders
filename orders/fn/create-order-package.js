@@ -7,14 +7,14 @@
 //  Orders - createOrderPackage()
 // 
 'use strict';
-const log = require('../log'); 
-const config = require('../config'); 
-const framework = require('../framework'); 
+const log = require('../../log'); 
+const config = require('../../config'); 
+const framework = require('../../framework'); 
 
-const fn = () => {
-
+const createOrderPackage = () => {
+  return 'createOrderPackage()';
 };
 
 module.exports = {
-  createOrderPackage: fn
+  createOrderPackage: createOrderPackage
 };

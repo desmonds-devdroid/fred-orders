@@ -13,6 +13,16 @@ const framework = require('./framework');
 
 const fn = () => {
 
+    const db = require('./orders/ordersDb').ordersDb;
+    
+    const rv = [];
+    rv.push(db.getOrdersByYear());
+    rv.push(db.getOrdersByMonth());
+    rv.push(db.getOrdersByDay());
+    rv.push(db.getOrders());
+    rv.push(db.createOrderPackage());
+    rv.push(db.countOrdersByDay());
+    return '\n - ' + rv.toString().replace(/,/g, '\n - ');
 };
 
 let r = fn();

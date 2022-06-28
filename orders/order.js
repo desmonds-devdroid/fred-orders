@@ -21,7 +21,7 @@ const getOrder = () => {
         payment: '',
         payment_screenshot: '',
         order_screenshots: '', 
-        additional: 
+        additional: ''
     };
 };
 

@@ -7,14 +7,14 @@
 //  Orders - getOrders()
 // 
 'use strict';
-const log = require('../log'); 
-const config = require('../config'); 
-const framework = require('../framework'); 
+const log = require('../../log'); 
+const config = require('../../config'); 
+const framework = require('../../framework'); 
 
-const fn = () => {
-
+const getOrders = () => {
+  return 'getOrders()';
 };
 
 module.exports = {
-  getOrders: fn
+  getOrders: getOrders
 };

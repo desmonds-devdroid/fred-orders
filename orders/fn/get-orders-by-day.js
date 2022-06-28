@@ -7,14 +7,14 @@
 //  Orders - getOrdersByDay()
 // 
 'use strict';
-const log = require('../log'); 
-const config = require('../config'); 
-const framework = require('../framework'); 
+const log = require('../../log'); 
+const config = require('../../config'); 
+const framework = require('../../framework'); 
 
-const fn = () => {
-
+const getOrdersByDay = () => {
+  return 'getOrdersByDay()';
 };
 
 module.exports = {
-  getOrdersByDay: fn
+  getOrdersByDay: getOrdersByDay
 };

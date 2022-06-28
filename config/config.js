@@ -13,7 +13,7 @@ const config = () => {
     return {
 
         // clients
-        clients: require('../clients/config')
+        orders: require('../orders/config')
       
         // log
         , log: require('../log/config')
