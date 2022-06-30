@@ -8,11 +8,11 @@
 // 
 'use strict';
 
-const log = require('../../log');
-const config = require('../../config-root');
+// const log = require('../../log');
+// const config = require('../../config-root');
 
 const fs = require('fs');
-const filesystem = require('./filesystem');
+// const filesystem = require('./filesystem');
 
 const deleteFile = (filePath) => {
 

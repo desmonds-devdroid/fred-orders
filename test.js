@@ -13,16 +13,15 @@ const framework = require('./framework');
 
 const fn = () => {
 
-    const db = require('./orders/ordersDb').ordersDb;
+    const fs = require('fs');
+    const dirlist = fs.readdirSync(__dirname);
+    log.log(__dirname);
+    log.log(dirlist.length);
+    log.log(dirlist);
+    console.log(dirlist);
+    const rv = framework.getObjectType(dirlist);
+    return rv;
     
-    const rv = [];
-    rv.push(db.getOrdersByYear());
-    rv.push(db.getOrdersByMonth());
-    rv.push(db.getOrdersByDay());
-    rv.push(db.getOrders());
-    rv.push(db.createOrderPackage());
-    rv.push(db.countOrdersByDay());
-    return '\n - ' + rv.toString().replace(/,/g, '\n - ');
 };
 
 let r = fn();

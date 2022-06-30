@@ -7,8 +7,7 @@
 //  random number generator
 // 
 'use strict';
-
-const log = require('../log');
+// const log = require('../log');
 
 const randomInt = (min, max) => {
     const random = require('random');

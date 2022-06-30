@@ -7,12 +7,20 @@
 //  Orders - createOrderPackage()
 // 
 'use strict';
-const log = require('../../log'); 
-const config = require('../../config'); 
-const framework = require('../../framework'); 
+// const log = require('../../log'); 
+// const config = require('../../config'); 
+// const framework = require('../../framework'); 
 
-const createOrderPackage = () => {
-  return 'createOrderPackage()';
+const createOrderPackage = (
+  client
+  , delivery
+  , products
+  , payment
+  , paymentScreenshot
+  , orderScreenshots
+) => {
+
+  
 };
 
 module.exports = {
